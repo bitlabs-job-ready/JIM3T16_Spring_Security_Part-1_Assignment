@@ -1,0 +1,11 @@
+1. Create a Spring Boot application with a simple REST API that allows users to register and login.
+
+2. Implement in-memory authentication for the API using the InMemoryUserDetailsManager class provided by Spring Security.
+
+3. Configure the application to use in-memory authentication with a few test users. For example, you could create a UserDetailsService bean that returns UserDetails objects for these users.
+
+4. Add a few endpoints to the API that require authentication. For example, a /profile endpoint that returns the user's profile information.
+
+5. Implement an @AuthenticationPrincipal annotation that can be used to inject the authenticated user's details into controller methods.
+
+6. Add support for password hashing and salting using the BCryptPasswordEncoder class.
